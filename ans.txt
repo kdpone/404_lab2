@@ -1,0 +1,12 @@
+Q1) by using sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+Q2) Server socket does not need a host while the client socket requires a host.
+    Server socket must perform: socket(), bind(), listen(), accept().
+    Server socket only uses sendall() and recv() on new sockets 
+    returned by accept()
+
+Q3) s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+Q4) 
+
