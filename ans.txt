@@ -8,5 +8,8 @@ Q2) Server socket does not need a host while the client socket requires a host.
 Q3) s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-Q4) test
+Q4) it gives the address of the connection
 
+Q5) the data received in bytes object
+
+Q6) https://github.com/kdpone/404_lab2
